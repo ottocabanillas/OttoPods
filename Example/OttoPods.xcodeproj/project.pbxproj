@@ -31,7 +31,7 @@
 		09183E89F01CCFC324692C3A /* Pods-OttoPods_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OttoPods_Tests.debug.xcconfig"; path = "Target Support Files/Pods-OttoPods_Tests/Pods-OttoPods_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		136FE4859DE65A321DCBEC8D /* Pods-OttoPods_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OttoPods_Example.release.xcconfig"; path = "Target Support Files/Pods-OttoPods_Example/Pods-OttoPods_Example.release.xcconfig"; sourceTree = "<group>"; };
 		23A3A04FF324E0E189420E0C /* Pods_OttoPods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OttoPods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2773BCBC2A0F51A1E17A8FF6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2773BCBC2A0F51A1E17A8FF6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2908D77915812565AD12A4E3 /* Pods-OttoPods_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OttoPods_Tests.release.xcconfig"; path = "Target Support Files/Pods-OttoPods_Tests/Pods-OttoPods_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* OttoPods_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OttoPods_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		9CD308432148AF4BC4B126FC /* Pods_OttoPods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OttoPods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D881A3E888C054CFA4492146 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D881A3E888C054CFA4492146 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D886145F918AD5C23E0EAF3F /* Pods-OttoPods_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OttoPods_Example.debug.xcconfig"; path = "Target Support Files/Pods-OttoPods_Example/Pods-OttoPods_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DB5577FA55549B6285482021 /* OttoPods.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = OttoPods.podspec; path = ../OttoPods.podspec; sourceTree = "<group>"; };
+		DB5577FA55549B6285482021 /* OttoPods.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OttoPods.podspec; path = ../OttoPods.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				09183E89F01CCFC324692C3A /* Pods-OttoPods_Tests.debug.xcconfig */,
 				2908D77915812565AD12A4E3 /* Pods-OttoPods_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

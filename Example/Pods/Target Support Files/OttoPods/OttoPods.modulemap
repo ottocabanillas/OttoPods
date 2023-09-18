@@ -1,0 +1,6 @@
+framework module OttoPods {
+  umbrella header "OttoPods-umbrella.h"
+
+  export *
+  module * { export * }
+}

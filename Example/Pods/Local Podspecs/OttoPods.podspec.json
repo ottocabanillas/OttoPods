@@ -1,0 +1,22 @@
+{
+  "name": "OttoPods",
+  "version": "0.1.0",
+  "summary": "A short description of OttoPods.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Oscar Cabanillas/OttoPods",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Oscar Cabanillas": "oscar.cabanillas@mercadolibre.com"
+  },
+  "source": {
+    "git": "https://github.com/Oscar Cabanillas/OttoPods.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "OttoPods/Classes/**/*"
+}

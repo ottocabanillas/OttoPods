@@ -1,0 +1,6 @@
+framework module Pods_OttoPods_Tests {
+  umbrella header "Pods-OttoPods_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - OttoPods (0.1.0)
+
+DEPENDENCIES:
+  - OttoPods (from `../`)
+
+EXTERNAL SOURCES:
+  OttoPods:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OttoPods: 2d723bfa3f0e16e7482d6a1c30db245060710138
+
+PODFILE CHECKSUM: d5d6d4b95eec0f7ff6b95528a7cb434736cf7649
+
+COCOAPODS: 1.12.1
