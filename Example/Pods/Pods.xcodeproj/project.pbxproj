@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		26D2DF480C4DD1CBC81729A4F18EE176 /* Pods-OttoPods_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9320DF4C2BFF1F2F8BA69E4BE51A0C /* Pods-OttoPods_Tests-dummy.m */; };
-		46C5679AA4F36B893F644B656F2EAD05 /* OttoPods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0505D7DC29278C9B6926AD174752272 /* OttoPods-dummy.m */; };
-		559E37D15998ACDA06085E64B9F50AF8 /* OttoPods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E72C680ECA32CD0BED909DFDFF52FCC4 /* OttoPods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		559E37D15998ACDA06085E64B9F50AF8 /* OttoPods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A16CCF27A6009A2A42E4CEED6B2377B /* OttoPods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		599B91EB48624ADA56DF376447036107 /* OttoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04562E46DA1D46C7109ADDDC3273759 /* OttoView.swift */; };
 		75EF528BBF6462AE0E5218E4DE775D22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		869389C2509D91939F4E3F0E5E1B40C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		95BBFE0E186082CA796EFF20F2550401 /* Pods-OttoPods_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13CD3D0222EB5D1D6C10B86689B5F3B6 /* Pods-OttoPods_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A20CCABBAEAB77DBED0DD788AA04CA3F /* OttoPods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF4113613B6F7AAEFA18CA895698579 /* OttoPods-dummy.m */; };
 		D069E4BC00C6428115AE07E3689D5893 /* Pods-OttoPods_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE190740B40572B487ADF5FB5A3B598 /* Pods-OttoPods_Example-dummy.m */; };
 		D28CA31D0FF9B5514C3B42B110139A78 /* Pods-OttoPods_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF6D63461E907BD9A3AFEEA344378F35 /* Pods-OttoPods_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E323952B4D9528E95044BDFC22B4CD70 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA343F0111410109F64E260CADD50F0 /* ReplaceMe.swift */; };
 		F06EE3F930CF58A494EC4904942A6B34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,38 +37,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07544339B605E9FD9F4273795F086482 /* OttoPods-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OttoPods-prefix.pch"; sourceTree = "<group>"; };
+		0F8D6484B66099124EF7B76529E4EB63 /* OttoPods-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OttoPods-Info.plist"; sourceTree = "<group>"; };
 		13CD3D0222EB5D1D6C10B86689B5F3B6 /* Pods-OttoPods_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OttoPods_Example-umbrella.h"; sourceTree = "<group>"; };
+		1BEF4709B3BB4FD02A3AB44F8495CD71 /* OttoPods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OttoPods.debug.xcconfig; sourceTree = "<group>"; };
 		2501C33CE01DC8DD1257BAAD8BF9786B /* Pods-OttoPods_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OttoPods_Tests"; path = Pods_OttoPods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		34930BF69C108F8BE00766FC3B947697 /* OttoPods.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OttoPods.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		35B3A17C5E56D8BA9AD48C1990F8B75F /* Pods-OttoPods_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OttoPods_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4B0099A5B831245B9BD992088D812631 /* Pods-OttoPods_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OttoPods_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		53C8991FFEE8402D48247E8DE34760B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		55117117E0F2255E7994D90BDE5A7719 /* Pods-OttoPods_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OttoPods_Example-Info.plist"; sourceTree = "<group>"; };
 		5789A06AA95B49B33FFEF394D88D56E0 /* Pods-OttoPods_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OttoPods_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		59DDA3E489C31D5CF3DC03423FD4840B /* OttoPods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OttoPods.release.xcconfig; sourceTree = "<group>"; };
 		615104E0CFB20CF4D00F1C4D8A42CDCD /* Pods-OttoPods_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OttoPods_Tests.modulemap"; sourceTree = "<group>"; };
 		68A0D1AEE5EF9415ABD4208214A0AAFE /* Pods-OttoPods_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OttoPods_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		741BAB09A077E9F9D74DA7BF8EEFA767 /* Pods-OttoPods_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OttoPods_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7A5AF482F9DC32E289F510BF2631B39C /* Pods-OttoPods_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OttoPods_Example"; path = Pods_OttoPods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CA99AAF4EDF902B7DAED3D0FF35F21F /* OttoPods */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OttoPods; path = OttoPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		829E79341CA515DB83DB8EBA42DF1BE0 /* OttoPods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OttoPods.debug.xcconfig; sourceTree = "<group>"; };
-		836DF652C57AA3B4692D1A7997286C13 /* OttoPods-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OttoPods-Info.plist"; sourceTree = "<group>"; };
+		8A16CCF27A6009A2A42E4CEED6B2377B /* OttoPods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OttoPods-umbrella.h"; sourceTree = "<group>"; };
+		961699EE62D54AD72315F97694012795 /* OttoPods-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OttoPods-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FE190740B40572B487ADF5FB5A3B598 /* Pods-OttoPods_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OttoPods_Example-dummy.m"; sourceTree = "<group>"; };
 		A86F623E15E3FDEE73A76658EC4B386B /* Pods-OttoPods_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OttoPods_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		ACC143072C8E4A036C353F1FA0A03EE0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		AE9320DF4C2BFF1F2F8BA69E4BE51A0C /* Pods-OttoPods_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OttoPods_Tests-dummy.m"; sourceTree = "<group>"; };
-		B0505D7DC29278C9B6926AD174752272 /* OttoPods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OttoPods-dummy.m"; sourceTree = "<group>"; };
-		C06D1CE52A25CA300E9E8E4766134C5D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AEBC6E5F7FD346841959037B0359580A /* OttoPods.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OttoPods.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B04562E46DA1D46C7109ADDDC3273759 /* OttoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OttoView.swift; path = OttoPods/Classes/OttoView.swift; sourceTree = "<group>"; };
+		B143C0D5D0976F8506BC63DEC7F3DC5C /* OttoPods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OttoPods.release.xcconfig; sourceTree = "<group>"; };
 		C843CC6F53D03ADE5B734B1CE106B88F /* Pods-OttoPods_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OttoPods_Tests-Info.plist"; sourceTree = "<group>"; };
+		CB667D90C2CF9ACFED0A0386C72BCD4A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		CF6D63461E907BD9A3AFEEA344378F35 /* Pods-OttoPods_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OttoPods_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D99A20EBDE5387ADF9CF79218AA90E17 /* Pods-OttoPods_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OttoPods_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E72C680ECA32CD0BED909DFDFF52FCC4 /* OttoPods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OttoPods-umbrella.h"; sourceTree = "<group>"; };
-		EDA343F0111410109F64E260CADD50F0 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = OttoPods/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		EBF4113613B6F7AAEFA18CA895698579 /* OttoPods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OttoPods-dummy.m"; sourceTree = "<group>"; };
 		EDD55C5EBBBCFECDA648652A3FE6EAE7 /* Pods-OttoPods_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OttoPods_Example.modulemap"; sourceTree = "<group>"; };
-		F0FF3C74CFAF1F404E4C1EAE07CD4F6C /* OttoPods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OttoPods.modulemap; sourceTree = "<group>"; };
 		F1A40FCF8C348C4324AACE549EBCB541 /* Pods-OttoPods_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OttoPods_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F4A68146526BC7BA4227973DB40C1159 /* OttoPods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OttoPods.modulemap; sourceTree = "<group>"; };
 		FDC7D1633B97967C082A3323FB664C44 /* Pods-OttoPods_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OttoPods_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,17 +100,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03FFA6E35F71DDAE6825FC052830ADA8 /* OttoPods */ = {
-			isa = PBXGroup;
-			children = (
-				EDA343F0111410109F64E260CADD50F0 /* ReplaceMe.swift */,
-				7E8CE64A8863B68519DA0633D2E0F39C /* Pod */,
-				1C86A6F4AB3926808E38515A4E87C7A8 /* Support Files */,
-			);
-			name = OttoPods;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		09D34E71429A92911C021C0614D18198 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,25 +109,10 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		1C86A6F4AB3926808E38515A4E87C7A8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F0FF3C74CFAF1F404E4C1EAE07CD4F6C /* OttoPods.modulemap */,
-				B0505D7DC29278C9B6926AD174752272 /* OttoPods-dummy.m */,
-				836DF652C57AA3B4692D1A7997286C13 /* OttoPods-Info.plist */,
-				07544339B605E9FD9F4273795F086482 /* OttoPods-prefix.pch */,
-				E72C680ECA32CD0BED909DFDFF52FCC4 /* OttoPods-umbrella.h */,
-				829E79341CA515DB83DB8EBA42DF1BE0 /* OttoPods.debug.xcconfig */,
-				59DDA3E489C31D5CF3DC03423FD4840B /* OttoPods.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/OttoPods";
-			sourceTree = "<group>";
-		};
 		25D7BD05696CA1B2EDDABB7F151F9897 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				03FFA6E35F71DDAE6825FC052830ADA8 /* OttoPods */,
+				D460EAA8B3694132CADA9A115550E1AD /* OttoPods */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -167,14 +141,19 @@
 			path = "Target Support Files/Pods-OttoPods_Tests";
 			sourceTree = "<group>";
 		};
-		7E8CE64A8863B68519DA0633D2E0F39C /* Pod */ = {
+		753788FC8D2A01BF3A9E11334249688D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				53C8991FFEE8402D48247E8DE34760B0 /* LICENSE */,
-				34930BF69C108F8BE00766FC3B947697 /* OttoPods.podspec */,
-				C06D1CE52A25CA300E9E8E4766134C5D /* README.md */,
+				F4A68146526BC7BA4227973DB40C1159 /* OttoPods.modulemap */,
+				EBF4113613B6F7AAEFA18CA895698579 /* OttoPods-dummy.m */,
+				0F8D6484B66099124EF7B76529E4EB63 /* OttoPods-Info.plist */,
+				961699EE62D54AD72315F97694012795 /* OttoPods-prefix.pch */,
+				8A16CCF27A6009A2A42E4CEED6B2377B /* OttoPods-umbrella.h */,
+				1BEF4709B3BB4FD02A3AB44F8495CD71 /* OttoPods.debug.xcconfig */,
+				B143C0D5D0976F8506BC63DEC7F3DC5C /* OttoPods.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OttoPods";
 			sourceTree = "<group>";
 		};
 		B44C1511976512FA33FCB924C98E4B76 /* Products */ = {
@@ -206,6 +185,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D460EAA8B3694132CADA9A115550E1AD /* OttoPods */ = {
+			isa = PBXGroup;
+			children = (
+				B04562E46DA1D46C7109ADDDC3273759 /* OttoView.swift */,
+				FA5F7BF8A9B64BDF7C8AF815EEA42B42 /* Pod */,
+				753788FC8D2A01BF3A9E11334249688D /* Support Files */,
+			);
+			name = OttoPods;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		E0D79D2AAAA7A1143601203F670C8580 /* Pods-OttoPods_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,6 +211,16 @@
 			);
 			name = "Pods-OttoPods_Example";
 			path = "Target Support Files/Pods-OttoPods_Example";
+			sourceTree = "<group>";
+		};
+		FA5F7BF8A9B64BDF7C8AF815EEA42B42 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				ACC143072C8E4A036C353F1FA0A03EE0 /* LICENSE */,
+				AEBC6E5F7FD346841959037B0359580A /* OttoPods.podspec */,
+				CB667D90C2CF9ACFED0A0386C72BCD4A /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +258,7 @@
 			buildConfigurationList = 8C0431ACD41D51680FCD13C175863A00 /* Build configuration list for PBXNativeTarget "OttoPods" */;
 			buildPhases = (
 				F511C6FC659F2F787057C39EC7D5E6E1 /* Headers */,
-				4D1F7AEF3509BD0BD4B02B0DE3F555D4 /* Sources */,
+				09554ED66FD51802AE471EF3413F250A /* Sources */,
 				429D497465A4DE1DCC4A98A995B80119 /* Frameworks */,
 				E3C5E90F26D0D9FE559ABBECC2311049 /* Resources */,
 			);
@@ -363,20 +363,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		09554ED66FD51802AE471EF3413F250A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20CCABBAEAB77DBED0DD788AA04CA3F /* OttoPods-dummy.m in Sources */,
+				599B91EB48624ADA56DF376447036107 /* OttoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		17B1C547C768693239A69FE4C0A3E8D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D069E4BC00C6428115AE07E3689D5893 /* Pods-OttoPods_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4D1F7AEF3509BD0BD4B02B0DE3F555D4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46C5679AA4F36B893F644B656F2EAD05 /* OttoPods-dummy.m in Sources */,
-				E323952B4D9528E95044BDFC22B4CD70 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,10 +406,11 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		37BDAC302A144F9DF3EBB2116607E50C /* Debug */ = {
+		0AD2BEE7E06D4C6907E2272E53370ED5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 829E79341CA515DB83DB8EBA42DF1BE0 /* OttoPods.debug.xcconfig */;
+			baseConfigurationReference = B143C0D5D0976F8506BC63DEC7F3DC5C /* OttoPods.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -422,7 +423,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/OttoPods/OttoPods-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/OttoPods/OttoPods-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/OttoPods/OttoPods.modulemap";
 				PRODUCT_MODULE_NAME = OttoPods;
@@ -430,38 +431,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		74742AEF8BD8EFA265108C30AF453A00 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59DDA3E489C31D5CF3DC03423FD4840B /* OttoPods.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OttoPods/OttoPods-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OttoPods/OttoPods-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OttoPods/OttoPods.modulemap";
-				PRODUCT_MODULE_NAME = OttoPods;
-				PRODUCT_NAME = OttoPods;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -469,73 +439,12 @@
 			};
 			name = Release;
 		};
-		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		8085A1A0A3DA0188799D5C8730D4CD38 /* Debug */ = {
+		1EF3226FC28844315A8A62920171A074 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FDC7D1633B97967C082A3323FB664C44 /* Pods-OttoPods_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -547,7 +456,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-OttoPods_Tests/Pods-OttoPods_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-OttoPods_Tests/Pods-OttoPods_Tests.modulemap";
@@ -564,11 +473,12 @@
 			};
 			name = Debug;
 		};
-		83AA3F88F7550AF9F8C4F90ACD0D1ACA /* Debug */ = {
+		3E2CCB73612191F5B865F56AB8F3CB00 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B0099A5B831245B9BD992088D812631 /* Pods-OttoPods_Example.debug.xcconfig */;
+			baseConfigurationReference = 741BAB09A077E9F9D74DA7BF8EEFA767 /* Pods-OttoPods_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -580,43 +490,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-OttoPods_Example/Pods-OttoPods_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-OttoPods_Example/Pods-OttoPods_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9D66272350C08061C0D657E5C9F1C653 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68A0D1AEE5EF9415ABD4208214A0AAFE /* Pods-OttoPods_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OttoPods_Tests/Pods-OttoPods_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OttoPods_Tests/Pods-OttoPods_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -631,7 +508,39 @@
 			};
 			name = Release;
 		};
-		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+		48BD2C93F51ABD1E21D7601E0B42CB1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BEF4709B3BB4FD02A3AB44F8495CD71 /* OttoPods.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OttoPods/OttoPods-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OttoPods/OttoPods-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OttoPods/OttoPods.modulemap";
+				PRODUCT_MODULE_NAME = OttoPods;
+				PRODUCT_NAME = OttoPods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -684,7 +593,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -697,11 +606,74 @@
 			};
 			name = Debug;
 		};
-		DFCFD7E0274245C4901EDA279B71F4A0 /* Release */ = {
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 741BAB09A077E9F9D74DA7BF8EEFA767 /* Pods-OttoPods_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B267F816CC0E194BCFDC042E7D55D34A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68A0D1AEE5EF9415ABD4208214A0AAFE /* Pods-OttoPods_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -711,12 +683,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OttoPods_Example/Pods-OttoPods_Example-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-OttoPods_Tests/Pods-OttoPods_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OttoPods_Example/Pods-OttoPods_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-OttoPods_Tests/Pods-OttoPods_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -731,14 +703,48 @@
 			};
 			name = Release;
 		};
+		FBC0C73791002AF11FEB1A7CAFD3384D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B0099A5B831245B9BD992088D812631 /* Pods-OttoPods_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OttoPods_Example/Pods-OttoPods_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OttoPods_Example/Pods-OttoPods_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		3B51616CE4046D56D47EA7A2F401CC63 /* Build configuration list for PBXNativeTarget "Pods-OttoPods_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8085A1A0A3DA0188799D5C8730D4CD38 /* Debug */,
-				9D66272350C08061C0D657E5C9F1C653 /* Release */,
+				1EF3226FC28844315A8A62920171A074 /* Debug */,
+				B267F816CC0E194BCFDC042E7D55D34A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -746,8 +752,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
-				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -755,8 +761,8 @@
 		8C0431ACD41D51680FCD13C175863A00 /* Build configuration list for PBXNativeTarget "OttoPods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37BDAC302A144F9DF3EBB2116607E50C /* Debug */,
-				74742AEF8BD8EFA265108C30AF453A00 /* Release */,
+				48BD2C93F51ABD1E21D7601E0B42CB1D /* Debug */,
+				0AD2BEE7E06D4C6907E2272E53370ED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -764,8 +770,8 @@
 		EE12184EEAF7013528A96195845176EA /* Build configuration list for PBXNativeTarget "Pods-OttoPods_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83AA3F88F7550AF9F8C4F90ACD0D1ACA /* Debug */,
-				DFCFD7E0274245C4901EDA279B71F4A0 /* Release */,
+				FBC0C73791002AF11FEB1A7CAFD3384D /* Debug */,
+				3E2CCB73612191F5B865F56AB8F3CB00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
