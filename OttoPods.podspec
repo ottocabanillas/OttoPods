@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OttoPods'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Esto es un ejemplo de como crear un pod en cocoapods'
   s.swift_versions   = '5.0'
 
